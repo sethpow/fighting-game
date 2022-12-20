@@ -8,7 +8,7 @@ const playerLocation = {
 }
 
 // Player
-const player = new Sprite('player 1', playerLocation, 'red')
+const player = new Sprite('player', playerLocation, 'blue')
 
 // Exports
 export default player

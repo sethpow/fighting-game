@@ -8,7 +8,7 @@ const enemyLocation = {
 }
 
 // Enemy
-const enemy = new Sprite('enemy 1', enemyLocation, 'blue')
+const enemy = new Sprite('enemy', enemyLocation, 'red')
 
 // Exports
 export default enemy
