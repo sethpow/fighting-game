@@ -14,6 +14,8 @@ c.fillRect(0,0, canvas.width, canvas.height)
 // Animation
 function animate() {
     window.requestAnimationFrame(animate)
+    c.fillStyle = 'black'
+    c.fillRect(0, 0, canvas.width, canvas.height)
     player.update()
     enemy.update()
 }
