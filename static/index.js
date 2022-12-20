@@ -13,9 +13,7 @@ c.fillRect(0,0, canvas.width, canvas.height)
 
 // Players
 player.draw()
-console.log(player)
 
 
 // Enemies
 enemy.draw()
-console.log(enemy)
