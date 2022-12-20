@@ -7,8 +7,19 @@ const playerLocation = {
     y: 0
 }
 
+// Movement
+const playerVelocity = {
+    x: 0,
+    y: 0
+}
+
 // Player
-const player = new Sprite('player', playerLocation, 'blue')
+const player = new Sprite({
+    name: 'player',
+    position: playerLocation,
+    velocity: playerVelocity,
+    color: 'blue'
+})
 
 // Exports
 export default player

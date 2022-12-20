@@ -7,8 +7,19 @@ const enemyLocation = {
     y: 0
 }
 
+// Movement
+const enemyVelocity = {
+    x: 0,
+    y: 0
+}
+
 // Enemy
-const enemy = new Sprite('enemy', enemyLocation, 'red')
+const enemy = new Sprite({
+    name: 'enemy',
+    position: enemyLocation,
+    velocity: enemyVelocity,
+    color: 'red'
+})
 
 // Exports
 export default enemy

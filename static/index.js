@@ -11,9 +11,11 @@ canvas.height = 576
 c.fillRect(0,0, canvas.width, canvas.height)
 
 
-// Players
-player.draw()
+// Animation
+function animate() {
+    window.requestAnimationFrame(animate)
+    player.update()
+    enemy.update()
+}
 
-
-// Enemies
-enemy.draw()
+animate()
